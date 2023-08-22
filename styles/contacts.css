@@ -1,0 +1,143 @@
+
+.contacts__background {
+    width: 100%;
+    height: 717px;
+    margin-top: 150px;
+    display: inline-flex;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 30px ;
+box-sizing: border-box;
+}
+.contacts__input {
+    margin-left: 125px;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+}
+.contacts__connection {
+    position: absolute;
+    width: 553px;
+    color: #FFF;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 100% */
+letter-spacing: -1.8px; 
+padding-top: 310px;
+
+}
+.contacts__input {
+    position: absolute;
+  display: block;
+  box-sizing: border-box;
+}
+.contacts__input-name {
+    margin-top: 500px;
+    margin-bottom: 20px;
+    border-radius: 675px;
+    width: 450px;
+    background: #3B3D3B;
+height: 41px;
+flex-shrink: 0;
+display: block;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+color: #FFF;
+}
+.contacts__input-name::placeholder {
+    color: red
+}
+
+.contacts__input-email {
+    margin-bottom: 40px;
+    border-radius: 675px;
+    width: 450px;
+height: 41px;
+flex-shrink: 0;
+display: block;
+background: #3B3D3B;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48px;
+color: #FFF;
+}
+.contacts__input-email::placeholder {
+    color: red;
+}
+
+.contacts__button-active { 
+width:350px;
+height:47px;
+margin-left: 50px;
+border-radius: 6.75px;
+background: red;
+color: black;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.48p
+}
+.contacts__button-active:hover {
+    background: black;
+color: red;
+transition: 0.7s;
+border: 2px solid red;
+}
+@media (max-width: 1199px) {
+    .contacts__input {
+        margin-left: 0px;
+    }
+    .contacts__background {
+        width: 100%;
+        height: 484px;
+    }
+    .contacts__connection {
+margin-top: -100px;
+width: 373px;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40.5px; /* 101.25% */
+letter-spacing: -1.2px;
+    }
+    .contacts__input-name {
+        margin-top: 350px;
+
+    }
+}
+@media (max-width: 767px) {
+    .contacts__input {
+        margin-left: 15px;
+  }
+    .contacts__background {
+        width: 100%;
+        height: 428px;
+    }
+    .contacts__connection {
+        font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 37.329px; /* 106.653% */
+letter-spacing: -1.05px;
+    }
+    .contacts__input-name {
+width: 300px;
+    }
+    .contacts__input-email  {
+        width: 300px;
+    }
+    .contacts__button-active {
+        width: 300px;
+        margin-left: 5px;
+}
+}
